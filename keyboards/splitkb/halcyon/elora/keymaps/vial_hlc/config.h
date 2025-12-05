@@ -19,4 +19,4 @@
 // Activate Layer Upon Movement
 #define POINTING_DEVICE_AUTO_MOUSE_ENABLE
 // only required if not setting mouse layer elsewhere
-#define AUTO_MOUSE_DEFAULT_LAYER <2>
+#define AUTO_MOUSE_DEFAULT_LAYER 2
