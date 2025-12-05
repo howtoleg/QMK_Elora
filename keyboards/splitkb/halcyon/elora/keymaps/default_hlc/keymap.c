@@ -13,6 +13,11 @@ enum layers {
     _ADJUST,
 };
 
+// Mouse Auto Layer
+void pointing_device_init_user(void) {
+    set_auto_mouse_enable(true);         // always required before the auto mouse feature will work
+}
+
 // Aliases for readability
 #define QWERTY   DF(_QWERTY)
 #define COLEMAK  DF(_COLEMAK_DH)
